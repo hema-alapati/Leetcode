@@ -15,14 +15,14 @@ public:
                 }
                 dict.erase(word);
                 for (int j = 0; j < word.size(); j++) {
-                    char c = word[j];
+                    char original = word[j];
                     for (int k = 'a'; k <= 'z'; k++) {
                         word[j] = k;
                         if (dict.find(word) != dict.end()) {
                             todo.push(word);
                         }
                      }
-                    word[j] = c;
+                    word[j] = original;
                 }
             }
             ladder++;
