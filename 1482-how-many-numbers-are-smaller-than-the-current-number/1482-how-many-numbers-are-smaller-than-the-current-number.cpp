@@ -11,7 +11,7 @@ public:
             m[vec[i]] = i;
         }
         // Saving the result again in nums for returning
-            for(int i=0; i<n; i++) {
+        for(int i=0; i<n; i++) {
             nums[i] = m[nums[i]];
         }
         return nums;
