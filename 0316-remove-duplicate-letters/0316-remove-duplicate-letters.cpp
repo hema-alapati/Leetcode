@@ -9,14 +9,14 @@ public:
         }
         
         for (int i = 0; i < s.size(); i++) {
-            char c = s[i];
-            if (seen.find(c) == seen.end()) {
-                while (!stack.empty() && c < stack.top() && i < last_occ[stack.top()]) {
+            char ch = s[i];
+            if (seen.find(ch) == seen.end()) {
+                while (!stack.empty() && ch < stack.top() && i < last_occ[stack.top()]) {
                     seen.erase(stack.top());
                     stack.pop();
                 }
-                seen.insert(c);
-                stack.push(c);
+                seen.insert(ch);
+                stack.push(ch);
             }
         }
         
