@@ -20,7 +20,7 @@ public:
             }
         }
         
-        std::string result = "";
+        string result = "";
         while (!stack.empty()) {
             result = stack.top() + result;
             stack.pop();
