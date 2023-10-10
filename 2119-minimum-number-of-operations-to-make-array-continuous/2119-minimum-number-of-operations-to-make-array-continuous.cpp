@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int minOperations(std::vector<int>& nums) {
+    int minOperations(vector<int>& nums) {
         int n = nums.size();
         sort(nums.begin(), nums.end());
         vector<int> uniqueNums(nums.begin(), unique(nums.begin(), nums.end()));
