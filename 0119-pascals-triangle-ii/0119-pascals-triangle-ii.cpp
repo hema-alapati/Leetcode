@@ -1,4 +1,3 @@
-// 100% Beats
 class Solution {
 public:
     vector<int> getRow(int rowIndex) {
