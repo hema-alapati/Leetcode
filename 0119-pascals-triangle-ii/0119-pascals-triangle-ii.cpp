@@ -2,7 +2,7 @@
 class Solution {
 public:
     vector<int> getRow(int rowIndex) {
-        vector<std::vector<int>> triangle;
+        vector<vector<int>> triangle;
 
         for (int i = 0; i <= rowIndex; i++) {
             vector<int> row(i + 1);
