@@ -2,18 +2,15 @@
 class Solution {
 public:
     vector<int> getRow(int rowIndex) {
-        std::vector<std::vector<int>> triangle;
+        vector<std::vector<int>> triangle;
 
         for (int i = 0; i <= rowIndex; i++) {
-            std::vector<int> row(i + 1);
+            vector<int> row(i + 1);
             for (int j = 0; j <= i; j++) {
                 if (j == 0 || j == i) {
-                    row[j] = 1;  // The first and last elements in each row are 1.
+                    row[j] = 1; 
                 } else {
-                    int prevRow = i - 1;
-                    int leftVal = triangle[prevRow][j - 1];
-                    int rightVal = triangle[prevRow][j];
-                    row[j] = leftVal + rightVal;  // Sum of the two numbers above.
+                    row[j] = triangle[i-1][j - 1] + triangle[i-1][j]; 
                 }
             }
             triangle.push_back(row);
