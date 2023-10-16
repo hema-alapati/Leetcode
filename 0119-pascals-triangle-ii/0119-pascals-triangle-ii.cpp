@@ -1,21 +1,18 @@
-// 60% Beast
+// 100% Beats
 class Solution {
 public:
     vector<int> getRow(int rowIndex) {
-        vector<vector<int>> triangle;
-
-        for (int i = 0; i <= rowIndex; i++) {
-            vector<int> row(i + 1);
-            for (int j = 0; j <= i; j++) {
-                if (j == 0 || j == i) {
-                    row[j] = 1; 
-                } else {
-                    row[j] = triangle[i-1][j - 1] + triangle[i-1][j]; 
-                }
-            }
-            triangle.push_back(row);
+        vector<int> result;
+        // Initialize the first element of the row to 1.
+        result.push_back(1);
+        // Calculate each element in the row using the binomial coefficient formula.
+        for (int i = 1; i <= rowIndex; i++) {
+            long prevElement = result[i - 1];
+            // Use the formula C(r, i) = C(r, i-1) * (r - i + 1) / i
+            long currentElement = prevElement * (rowIndex - i + 1) / i;
+            result.push_back(static_cast<int>(currentElement));
         }
 
-        return triangle[rowIndex];
+        return result;
     }
 };
