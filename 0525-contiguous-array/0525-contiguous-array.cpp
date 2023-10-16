@@ -4,7 +4,7 @@ public:
         unordered_map<int,int>sums;
         int sum=0;
         int maxLen=0;
-        // sums[0]=-1;
+        sums[0]=-1;
         for(int i=0;i<nums.size();i++){
             nums[i]==0?nums[i]=-1:nums[i]=1;
         }
