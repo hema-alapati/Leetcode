@@ -16,6 +16,6 @@ public:
             }
         }
 
-        return count + 1; // Add 1 for the last substring
+        return count + 1; //adding the last substring
     }
 };
