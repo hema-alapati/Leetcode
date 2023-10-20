@@ -1,39 +1,16 @@
 class Solution {
-    public:
-        struct CharFrequency {
-        char ch;
-        int freq;
-        
-        bool operator<(const CharFrequency& other) const {
-            return freq < other.freq;
-        }
-    };
-
-
+public:
     string frequencySort(string s) {
-        unordered_map<char, int> charCount;
-        
-        for (char c : s) {
-            charCount[c]++;
+        vector<pair<int,char>>hash('z'+1,{0,0});
+        for(char c:s){
+            hash[c]={hash[c].first+1,c};
         }
-        
-        priority_queue<CharFrequency> maxHeap;
-        
-        for (const auto& entry : charCount) {
-            maxHeap.push({entry.first, entry.second});
+        sort(hash.begin(),hash.end());
+
+        string res="";
+        for(auto p:hash){
+            res=string(p.first,p.second)+res;
         }
-        
-        string result = "";
-        
-        while (!maxHeap.empty()) {
-            CharFrequency cf = maxHeap.top();
-            maxHeap.pop();
-            
-            for (int i = 0; i < cf.freq; i++) {
-                result += cf.ch;
-            }
-        }
-        
-        return result;
+        return res;
     }
 };
