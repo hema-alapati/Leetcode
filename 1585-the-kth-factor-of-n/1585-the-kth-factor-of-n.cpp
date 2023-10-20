@@ -9,13 +9,8 @@ public:
                 if(kth==k){
                     return i;
                 }
-                // res.push_back(i);
             }
         }
-        // sort(res.begin(),res.end());
-        // if(k-1<res.size()){
-        //     return res[k-1];
-        // }
         return -1;
     }
 };
