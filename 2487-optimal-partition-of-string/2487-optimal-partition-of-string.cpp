@@ -7,18 +7,15 @@ public:
 
         for (int i = 0; i < n; ++i) {
             char c = s[i];
-            if (seen.find(c) != seen.end()) {
+            if (seen.count(c) == 1) {
                 seen.clear();
+                seen.insert(c);
                 count++;
+            } else {
+                seen.insert(c);
             }
-            seen.insert(c);
         }
 
-        // The remaining characters in the last partition should also be counted.
-        if (!seen.empty()) {
-            count++;
-        }
-
-        return count;
+        return count + 1; // Add 1 for the last substring
     }
 };
