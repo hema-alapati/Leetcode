@@ -11,18 +11,30 @@ public:
         
         for (int i = len2; i >= 1; i--) {
             if (len1 % i == 0 && len2 % i == 0) {
-                string commonDivisor = str1.substr(0, i);
-                string temp1 = commonDivisor, temp2 = commonDivisor;
+                bool isCommonDivisor = true;
                 
-                while (temp1.length() < len1) temp1 += commonDivisor;
-                while (temp2.length() < len2) temp2 += commonDivisor;
+                for (int j = i; j < len1; j++) {
+                    if (str1[j] != str1[j % i]) {
+                        isCommonDivisor = false;
+                        break;
+                    }
+                }
                 
-                if (temp1 == str1 && temp2 == str2) {
-                    return commonDivisor;
+                if (isCommonDivisor) {
+                    for (int j = 0; j < len2; j++) {
+                        if (str2[j] != str1[j % i]) {
+                            isCommonDivisor = false;
+                            break;
+                        }
+                    }
+                }
+                
+                if (isCommonDivisor) {
+                    return str1.substr(0, i);
                 }
             }
         }
-
+        
         return "";
     }
 };
