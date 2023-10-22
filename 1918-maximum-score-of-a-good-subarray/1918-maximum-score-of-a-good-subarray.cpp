@@ -11,7 +11,7 @@ public:
             } else {
                 left--;
             }
-            min_val =min(min_val, std::min(nums[left], nums[right]));
+            min_val =min(min_val, min(nums[left], nums[right]));
             max_score =max(max_score, min_val * (right - left + 1));
         }
         
