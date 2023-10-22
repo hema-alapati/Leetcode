@@ -1,12 +1,14 @@
 class Solution {
 public:
     int findPoisonedDuration(vector<int>& timeSeries, int duration) {
-        int totalDuration = 0;
-        int endTime = 0;
+        if (timeSeries.empty()) return 0;
 
-        for (int timePoint : timeSeries) {
-            totalDuration += min(duration, timePoint + duration - endTime);
-            endTime = timePoint + duration;
+        int totalDuration = duration;
+        int endTime = timeSeries[0] + duration;
+
+        for (int i = 1; i < timeSeries.size(); i++) {
+            totalDuration += min(duration, timeSeries[i] - timeSeries[i - 1]);
+            endTime = timeSeries[i] + duration;
         }
 
         return totalDuration;
