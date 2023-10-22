@@ -12,6 +12,9 @@ public:
                 }
                 if (count >= n) return true;
             }
+            else{
+                i++;
+            }
         }
         return false;
     }
