@@ -16,7 +16,13 @@ public:
                 goingDown = !goingDown;
             }
 
-            currentRow += goingDown ? 1 : -1;
+            // currentRow += goingDown ? 1 : -1;
+            if(goingDown==true){
+                currentRow+=1;
+            }
+            else{
+                currentRow-=1;
+            }
         }
 
         string zigzag;
