@@ -1,26 +1,27 @@
 class Solution {
 public:
-    vector<int> searchRange(std::vector<int>& nums, int target) {
-        int start = -1, end = -1;
-
-        for (int i = 0; i < nums.size(); ++i) {
+    vector<int> searchRange(vector<int>& nums, int target) {
+        vector<int> result = {-1, -1};
+        int n = nums.size();
+        
+        for (int i = 0; i < n; ++i) {
             if (nums[i] == target) {
-                start = i;
+                result[0] = i;
                 break;
             }
         }
-
-        if (start == -1) {
-            return {-1, -1};
+        
+        if (result[0] == -1) {
+            return result;
         }
-
-        for (int i = nums.size() - 1; i >= 0; --i) {
+        
+        for (int i = n - 1; i >= 0; --i) {
             if (nums[i] == target) {
-                end = i;
+                result[1] = i;
                 break;
             }
         }
-
-        return {start, end};
+        
+        return result;
     }
 };
