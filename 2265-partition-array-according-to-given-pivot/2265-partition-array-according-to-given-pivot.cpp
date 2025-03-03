@@ -6,24 +6,15 @@ public:
         for(int i=0;i<nums.size();i++){
             if(nums[i]==pivot) count++;
             else if(nums[i]<pivot) ans.push_back(nums[i]);
-            else{
-                continue;
-            }
-        }
-        for(int i=0;i<nums.size();i++){
-            if(nums[i]==pivot) continue;
-            else if(nums[i]<pivot) continue;
-            else{
-                while(count!=0){
-                    ans.push_back(pivot);
-                    count--;
-                }
-                ans.push_back(nums[i]);
-            }
         }
         while(count!=0){
             ans.push_back(pivot);
             count--;
+        }
+        for(int i=0;i<nums.size();i++){
+            if(nums[i]>pivot){
+                ans.push_back(nums[i]);
+            }
         }
         return ans;
     }
