@@ -15,4 +15,8 @@ Collection of LeetCode questions I practiced.
 |  |
 | ------- |
 | [2265-partition-array-according-to-given-pivot](https://github.com/hema-alapati/Leetcode/tree/master/2265-partition-array-according-to-given-pivot) |
+## Math
+|  |
+| ------- |
+| [2649-count-total-number-of-colored-cells](https://github.com/hema-alapati/Leetcode/tree/master/2649-count-total-number-of-colored-cells) |
 <!---LeetCode Topics End-->
