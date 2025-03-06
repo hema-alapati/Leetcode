@@ -5,9 +5,9 @@ class Solution {
         int size = n * n;
         int[] freq = new int[size + 1];
 
-        for (int[] row : grid) {
-            for (int num : row) {
-                freq[num]++;
+        for (int i = 0; i < grid.length; i++) {
+            for (int j = 0; j < grid[i].length; j++) {
+                freq[grid[i][j]]++;
             }
         }
 
