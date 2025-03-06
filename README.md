@@ -7,6 +7,7 @@ Collection of LeetCode questions I practiced.
 |  |
 | ------- |
 | [2265-partition-array-according-to-given-pivot](https://github.com/hema-alapati/Leetcode/tree/master/2265-partition-array-according-to-given-pivot) |
+| [3227-find-missing-and-repeated-values](https://github.com/hema-alapati/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
 ## Two Pointers
 |  |
 | ------- |
@@ -19,4 +20,13 @@ Collection of LeetCode questions I practiced.
 |  |
 | ------- |
 | [2649-count-total-number-of-colored-cells](https://github.com/hema-alapati/Leetcode/tree/master/2649-count-total-number-of-colored-cells) |
+| [3227-find-missing-and-repeated-values](https://github.com/hema-alapati/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
+## Hash Table
+|  |
+| ------- |
+| [3227-find-missing-and-repeated-values](https://github.com/hema-alapati/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
+## Matrix
+|  |
+| ------- |
+| [3227-find-missing-and-repeated-values](https://github.com/hema-alapati/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
 <!---LeetCode Topics End-->
