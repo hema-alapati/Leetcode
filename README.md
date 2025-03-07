@@ -21,6 +21,7 @@ Collection of LeetCode questions I practiced.
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/hema-alapati/Leetcode/tree/master/0204-count-primes) |
+| [2610-closest-prime-numbers-in-range](https://github.com/hema-alapati/Leetcode/tree/master/2610-closest-prime-numbers-in-range) |
 | [2649-count-total-number-of-colored-cells](https://github.com/hema-alapati/Leetcode/tree/master/2649-count-total-number-of-colored-cells) |
 | [3227-find-missing-and-repeated-values](https://github.com/hema-alapati/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
 ## Hash Table
@@ -39,4 +40,5 @@ Collection of LeetCode questions I practiced.
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/hema-alapati/Leetcode/tree/master/0204-count-primes) |
+| [2610-closest-prime-numbers-in-range](https://github.com/hema-alapati/Leetcode/tree/master/2610-closest-prime-numbers-in-range) |
 <!---LeetCode Topics End-->
