@@ -6,6 +6,7 @@ Collection of LeetCode questions I practiced.
 ## Array
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/hema-alapati/Leetcode/tree/master/0204-count-primes) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/hema-alapati/Leetcode/tree/master/2265-partition-array-according-to-given-pivot) |
 | [3227-find-missing-and-repeated-values](https://github.com/hema-alapati/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
 ## Two Pointers
@@ -19,6 +20,7 @@ Collection of LeetCode questions I practiced.
 ## Math
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/hema-alapati/Leetcode/tree/master/0204-count-primes) |
 | [2649-count-total-number-of-colored-cells](https://github.com/hema-alapati/Leetcode/tree/master/2649-count-total-number-of-colored-cells) |
 | [3227-find-missing-and-repeated-values](https://github.com/hema-alapati/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
 ## Hash Table
@@ -29,4 +31,12 @@ Collection of LeetCode questions I practiced.
 |  |
 | ------- |
 | [3227-find-missing-and-repeated-values](https://github.com/hema-alapati/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
+## Enumeration
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/hema-alapati/Leetcode/tree/master/0204-count-primes) |
+## Number Theory
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/hema-alapati/Leetcode/tree/master/0204-count-primes) |
 <!---LeetCode Topics End-->
