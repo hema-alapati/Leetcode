@@ -41,4 +41,12 @@ Collection of LeetCode questions I practiced.
 | ------- |
 | [0204-count-primes](https://github.com/hema-alapati/Leetcode/tree/master/0204-count-primes) |
 | [2610-closest-prime-numbers-in-range](https://github.com/hema-alapati/Leetcode/tree/master/2610-closest-prime-numbers-in-range) |
+## String
+|  |
+| ------- |
+| [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/hema-alapati/Leetcode/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
+## Sliding Window
+|  |
+| ------- |
+| [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/hema-alapati/Leetcode/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 <!---LeetCode Topics End-->
