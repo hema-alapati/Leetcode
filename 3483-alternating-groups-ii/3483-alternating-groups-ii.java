@@ -7,14 +7,11 @@ class Solution {
             if(colors[i%n]==colors[(i-1)%n]){
                 left=i;
             }
-            if(i-left+1>k){
-                left+=1;
-            }
-            if(i-left+1==k){
-                result+=1;
+            if(i-left+1>=k){
+                result++;
             }
         }
+        
         return result;
-        //referred: https://www.youtube.com/watch?v=Zexx16dNPX8
     }
 }
