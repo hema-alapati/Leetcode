@@ -15,6 +15,7 @@ Collection of LeetCode questions I practiced.
 ## Two Pointers
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/hema-alapati/Leetcode/tree/master/0005-longest-palindromic-substring) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/hema-alapati/Leetcode/tree/master/2265-partition-array-according-to-given-pivot) |
 ## Simulation
 |  |
@@ -47,6 +48,7 @@ Collection of LeetCode questions I practiced.
 ## String
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/hema-alapati/Leetcode/tree/master/0005-longest-palindromic-substring) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/hema-alapati/Leetcode/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 ## Sliding Window
 |  |
@@ -62,4 +64,8 @@ Collection of LeetCode questions I practiced.
 |  |
 | ------- |
 | [3643-zero-array-transformation-ii](https://github.com/hema-alapati/Leetcode/tree/master/3643-zero-array-transformation-ii) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0005-longest-palindromic-substring](https://github.com/hema-alapati/Leetcode/tree/master/0005-longest-palindromic-substring) |
 <!---LeetCode Topics End-->
