@@ -9,6 +9,7 @@ Collection of LeetCode questions I practiced.
 | [0204-count-primes](https://github.com/hema-alapati/Leetcode/tree/master/0204-count-primes) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/hema-alapati/Leetcode/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/hema-alapati/Leetcode/tree/master/2265-partition-array-according-to-given-pivot) |
+| [2308-divide-array-into-equal-pairs](https://github.com/hema-alapati/Leetcode/tree/master/2308-divide-array-into-equal-pairs) |
 | [3227-find-missing-and-repeated-values](https://github.com/hema-alapati/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
 | [3483-alternating-groups-ii](https://github.com/hema-alapati/Leetcode/tree/master/3483-alternating-groups-ii) |
 | [3643-zero-array-transformation-ii](https://github.com/hema-alapati/Leetcode/tree/master/3643-zero-array-transformation-ii) |
@@ -31,6 +32,7 @@ Collection of LeetCode questions I practiced.
 ## Hash Table
 |  |
 | ------- |
+| [2308-divide-array-into-equal-pairs](https://github.com/hema-alapati/Leetcode/tree/master/2308-divide-array-into-equal-pairs) |
 | [3227-find-missing-and-repeated-values](https://github.com/hema-alapati/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
 ## Matrix
 |  |
@@ -68,4 +70,12 @@ Collection of LeetCode questions I practiced.
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/hema-alapati/Leetcode/tree/master/0005-longest-palindromic-substring) |
+## Bit Manipulation
+|  |
+| ------- |
+| [2308-divide-array-into-equal-pairs](https://github.com/hema-alapati/Leetcode/tree/master/2308-divide-array-into-equal-pairs) |
+## Counting
+|  |
+| ------- |
+| [2308-divide-array-into-equal-pairs](https://github.com/hema-alapati/Leetcode/tree/master/2308-divide-array-into-equal-pairs) |
 <!---LeetCode Topics End-->
