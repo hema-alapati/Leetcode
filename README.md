@@ -7,6 +7,7 @@ Collection of LeetCode questions I practiced.
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/hema-alapati/Leetcode/tree/master/0001-two-sum) |
+| [0027-remove-element](https://github.com/hema-alapati/Leetcode/tree/master/0027-remove-element) |
 | [0204-count-primes](https://github.com/hema-alapati/Leetcode/tree/master/0204-count-primes) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/hema-alapati/Leetcode/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/hema-alapati/Leetcode/tree/master/2265-partition-array-according-to-given-pivot) |
@@ -20,6 +21,7 @@ Collection of LeetCode questions I practiced.
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/hema-alapati/Leetcode/tree/master/0005-longest-palindromic-substring) |
+| [0027-remove-element](https://github.com/hema-alapati/Leetcode/tree/master/0027-remove-element) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/hema-alapati/Leetcode/tree/master/2265-partition-array-according-to-given-pivot) |
 ## Simulation
 |  |
