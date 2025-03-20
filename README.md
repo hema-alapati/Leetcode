@@ -6,6 +6,7 @@ Collection of LeetCode questions I practiced.
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/hema-alapati/Leetcode/tree/master/0001-two-sum) |
 | [0204-count-primes](https://github.com/hema-alapati/Leetcode/tree/master/0204-count-primes) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/hema-alapati/Leetcode/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/hema-alapati/Leetcode/tree/master/2265-partition-array-according-to-given-pivot) |
@@ -34,6 +35,7 @@ Collection of LeetCode questions I practiced.
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/hema-alapati/Leetcode/tree/master/0001-two-sum) |
 | [2308-divide-array-into-equal-pairs](https://github.com/hema-alapati/Leetcode/tree/master/2308-divide-array-into-equal-pairs) |
 | [3227-find-missing-and-repeated-values](https://github.com/hema-alapati/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
 ## Matrix
