@@ -39,6 +39,7 @@ Collection of LeetCode questions I practiced.
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/hema-alapati/Leetcode/tree/master/0001-two-sum) |
+| [0208-implement-trie-prefix-tree](https://github.com/hema-alapati/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [2308-divide-array-into-equal-pairs](https://github.com/hema-alapati/Leetcode/tree/master/2308-divide-array-into-equal-pairs) |
 | [3227-find-missing-and-repeated-values](https://github.com/hema-alapati/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
 ## Matrix
@@ -58,6 +59,7 @@ Collection of LeetCode questions I practiced.
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/hema-alapati/Leetcode/tree/master/0005-longest-palindromic-substring) |
+| [0208-implement-trie-prefix-tree](https://github.com/hema-alapati/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/hema-alapati/Leetcode/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 ## Sliding Window
 |  |
@@ -95,4 +97,12 @@ Collection of LeetCode questions I practiced.
 |  |
 | ------- |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/hema-alapati/Leetcode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
+## Design
+|  |
+| ------- |
+| [0208-implement-trie-prefix-tree](https://github.com/hema-alapati/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
+## Trie
+|  |
+| ------- |
+| [0208-implement-trie-prefix-tree](https://github.com/hema-alapati/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
 <!---LeetCode Topics End-->
