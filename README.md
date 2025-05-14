@@ -35,6 +35,7 @@ Collection of LeetCode questions I practiced.
 | [2610-closest-prime-numbers-in-range](https://github.com/hema-alapati/Leetcode/tree/master/2610-closest-prime-numbers-in-range) |
 | [2649-count-total-number-of-colored-cells](https://github.com/hema-alapati/Leetcode/tree/master/2649-count-total-number-of-colored-cells) |
 | [3227-find-missing-and-repeated-values](https://github.com/hema-alapati/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
+| [3629-total-characters-in-string-after-transformations-i](https://github.com/hema-alapati/Leetcode/tree/master/3629-total-characters-in-string-after-transformations-i) |
 ## Hash Table
 |  |
 | ------- |
@@ -42,6 +43,7 @@ Collection of LeetCode questions I practiced.
 | [0208-implement-trie-prefix-tree](https://github.com/hema-alapati/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [2308-divide-array-into-equal-pairs](https://github.com/hema-alapati/Leetcode/tree/master/2308-divide-array-into-equal-pairs) |
 | [3227-find-missing-and-repeated-values](https://github.com/hema-alapati/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
+| [3629-total-characters-in-string-after-transformations-i](https://github.com/hema-alapati/Leetcode/tree/master/3629-total-characters-in-string-after-transformations-i) |
 ## Matrix
 |  |
 | ------- |
@@ -61,6 +63,7 @@ Collection of LeetCode questions I practiced.
 | [0005-longest-palindromic-substring](https://github.com/hema-alapati/Leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0208-implement-trie-prefix-tree](https://github.com/hema-alapati/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/hema-alapati/Leetcode/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
+| [3629-total-characters-in-string-after-transformations-i](https://github.com/hema-alapati/Leetcode/tree/master/3629-total-characters-in-string-after-transformations-i) |
 ## Sliding Window
 |  |
 | ------- |
@@ -83,6 +86,7 @@ Collection of LeetCode questions I practiced.
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/hema-alapati/Leetcode/tree/master/0005-longest-palindromic-substring) |
 | [2262-solving-questions-with-brainpower](https://github.com/hema-alapati/Leetcode/tree/master/2262-solving-questions-with-brainpower) |
+| [3629-total-characters-in-string-after-transformations-i](https://github.com/hema-alapati/Leetcode/tree/master/3629-total-characters-in-string-after-transformations-i) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -93,6 +97,7 @@ Collection of LeetCode questions I practiced.
 |  |
 | ------- |
 | [2308-divide-array-into-equal-pairs](https://github.com/hema-alapati/Leetcode/tree/master/2308-divide-array-into-equal-pairs) |
+| [3629-total-characters-in-string-after-transformations-i](https://github.com/hema-alapati/Leetcode/tree/master/3629-total-characters-in-string-after-transformations-i) |
 ## Queue
 |  |
 | ------- |
